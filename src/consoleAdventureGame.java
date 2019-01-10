@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Combat {
+public class consoleAdventureGame {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Hello hero! What is thy name?");
