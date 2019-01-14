@@ -1,28 +1,28 @@
 import java.util.concurrent.ThreadLocalRandom;
 
-public class javaMethodsPractice {
-    public static boolean coinFlip () {
-        int headsOrTails = (int) Math.ceil(Math.random()*((2-1)+1));
-        if (headsOrTails == 1) {
-            return true;
-        }
-        return false;
-    }
-    public static int randomWalk (int n) {
-        int randomOnesAndZeros = (int) Math.ceil(Math.random()*((2-1)+1));
-        for ()
-
-    }
-
-
-
-
-
-
-    public static void main(String[] args) {
-        System.out.println(coinFlip());
-    }
-}
+//public class javaMethodsPractice {
+//    public static boolean coinFlip () {
+//        int headsOrTails = (int) Math.ceil(Math.random()*((2-1)+1));
+//        if (headsOrTails == 1) {
+//            return true;
+//        }
+//        return false;
+//    }
+//    public static int randomWalk (int n) {
+//        int randomOnesAndZeros = (int) Math.ceil(Math.random()*((2-1)+1));
+//        for ();
+//
+//    }
+//
+//
+//
+//
+//
+//
+//    public static void main(String[] args) {
+//        System.out.println(coinFlip());
+//    }
+//}
 
 
 //    Java Methods Practice Part 2
