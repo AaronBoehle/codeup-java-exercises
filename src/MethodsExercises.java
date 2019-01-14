@@ -1,3 +1,4 @@
+import java.lang.reflect.Method;
 import java.util.Scanner;
 
 public class MethodsExercises {
@@ -54,6 +55,19 @@ public class MethodsExercises {
         return n*factorial(n-1);
     }
 
+    public static int diceSides (int a) {
+        System.out.println("Enter the number of sides for a pair of dice");
+        int userInput = inputScanner();
+        if (userInput<6) {
+            System.out.println("Dice need at least six sides, silly!");
+            return diceSides(a);
+        }
+        return userInput;
+    }
+    public static void rollDice (int die1, int die2) {
+        System.out.println("Ready to roll the dice? If so respond 'y' or 'yes");
+
+    }
 
 
 
@@ -66,5 +80,10 @@ public class MethodsExercises {
         System.out.println(factorial(getInteger(1,16)));
     }
 }
-//        Don’t forget to change your verification too!
-//        Use Recursion to implement the factorial.
+
+//    Create an application that simulates dice rolling.
+//
+//        Prompt the user to roll the dice.
+//        "Roll" two n-sided dice, display the results of each, and then ask the user if he/she wants to roll the dice again.
+//        Use static methods to implement the method(s) that generate the random numbers.
+//        Use the .random method of the java.lang.Math class to generate random numbers.
