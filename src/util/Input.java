@@ -13,11 +13,11 @@ public class Input {
         System.out.println(prompt);
          String input = "";
          input += scanner.next();
-         return input;
+         return input.toLowerCase();
     }
     public boolean yesNo(String prompt) {
         System.out.println(prompt);
-        String response = scanner.nextLine().toLowerCase();
+        String response = scanner.next().toLowerCase();
         if (response.equalsIgnoreCase("yes") ||
                 response.equalsIgnoreCase("y") ||
                 response.equalsIgnoreCase("yeah")||
